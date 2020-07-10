@@ -1,4 +1,4 @@
-package com.database.demo.demo.jpa;
+package com.database.demo.demo.jpa.hibernate;
 
 import com.database.demo.demo.Entities.Person;
 import com.database.demo.demo.Entities.User;
