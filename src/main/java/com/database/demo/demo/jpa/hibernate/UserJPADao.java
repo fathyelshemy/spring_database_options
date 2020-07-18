@@ -27,8 +27,9 @@ public class UserJPADao {
     }
 
 
-    public void saveUser(User user){
+    public User saveUser(User user){
         entityManager.merge(user);
+        return user;
     }
     public void deleteUserById(long id){
         User RemovedUser=findById(id);
