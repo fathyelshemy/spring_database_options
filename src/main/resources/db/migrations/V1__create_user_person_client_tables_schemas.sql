@@ -1,6 +1,6 @@
 create table person
 (
-    id integer not null,
+    id bigint not null,
     name varchar(255) not null,
     location varchar(255),
     birth_date timestamp,
@@ -9,7 +9,7 @@ create table person
 
 create table user
 (
-    id integer not null,
+    id bigint not null,
     name varchar(255) not null,
     location varchar(255),
     birth_date timestamp,
@@ -19,7 +19,7 @@ create table user
 
 create table client
 (
-    id integer not null,
+    id bigint not null,
     name varchar(255) not null,
     location varchar(255),
     birth_date timestamp,
