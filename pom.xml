@@ -68,6 +68,7 @@
     </dependencies>
 
     <build>
+        <finalName>database-demo</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -108,7 +109,24 @@
                 </executions>
             </plugin>
 
+            <plugin>
+                <groupId>org.flywaydb</groupId>
+                <artifactId>flyway-maven-plugin</artifactId>
+                <configuration>
+                    <url>jdbc:h2:mem:testdb</url>
+                    <user></user>
 
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.h2database</groupId>
+                        <artifactId>h2</artifactId>
+                        <version>1.4.197</version>
+                        <scope>runtime</scope>
+                    </dependency>
+
+                </dependencies>
+            </plugin>
         </plugins>
     </build>
 

@@ -14,7 +14,7 @@ spring:
     hibernate:
       ddl-auto: update
   flyway:
-    locations: classpath:db/migrations
+    locations: classpath:db/migration
     enabled: true
     encoding: UTF-8
 #logging:
