@@ -75,7 +75,7 @@
     </dependencies>
 
     <build>
-        <finalName>database-demo</finalName>
+        <finalName>spring-database-connections</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -162,7 +162,7 @@
                                             <exec>
                                                 <args>java</args>
                                                 <args>-jar</args>
-                                                <args>/maven/${project.artifactId}-${project.version}.jar</args>
+                                                <args>/maven/${project.artifactId}.jar</args>
                                             </exec>
                                         </entryPoint>
                                         <assembly>
