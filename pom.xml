@@ -11,7 +11,7 @@
     <groupId>com.database.demo</groupId>
     <artifactId>spring-database-connections</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>database-demo</name>
+    <name>spring-database-connections</name>
     <description>Demo project for Spring Boot with database options available and discover it</description>
 
     <properties>
